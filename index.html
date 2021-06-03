@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>SnakeMania</title>
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+         crossorigin="anonymous"
+      />
+      <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <div class="navbar navbar-expand bg-dark">
+         <a class="navbar-brand" href="index.html">SnakeMania</a>
+         <ul class="navbar-nav">
+            <li class="nav-item">
+               <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="Html/game_rule.html">Game Rules</a>
+            </li>
+         </ul>
+      </div>
+
+      <div class="body">
+         <div class="row">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+               <div class="row">
+                  <div class="col-6 col-xs-6 col-sm-6 col-md-12 col-lg-12 col-xl-12">
+                     <div id="gamename">Snake Mania</div>
+                  </div>
+                  <div class="col-6 col-xs-6 col-sm-6 col-md-12 col-lg-12 col-xl-12">
+                     <div class="con">
+                        <div class="diff">
+                           Difficulty
+                           <span
+                              ><select name="" id="sel">
+                                 <option value="10">5 (Default)</option>
+                                 <option value="4">Level 2</option>
+                                 <option value="6">Level 3</option>
+                                 <option value="8">Level 4</option>
+                                 <option value="10">Level 5</option>
+                                 <option value="12">Level 6</option>
+                                 <option value="14">Level 7</option>
+                                 <option value="16">Level 8</option>
+                              </select>
+                              <button type="button" class="btn btn-primary">Okay</button>
+                           </span>
+                        </div>
+                        <div id="score">
+                           <div id="ScoreBoard">Score : 0</div>
+                           <div id="HighSoreBoard">HighScore : 0</div>
+                        </div>
+                        <!-- Difficulty : -->
+                     </div>
+                     <!-- <button id="res">Reset</button> -->
+                  </div>
+               </div>
+            </div>
+            <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+               <div id="board"></div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid text-center font-small bg-dark item-center pb-1">
+         <div id="footer-main">
+            <div id="footer-id">Created By - Himanshu Sahu</div>
+            <ul id="icons">
+               <li id="social">
+                  <a href="https://www.linkedin.com/in/himanshu-99/"
+                     ><span class="iconify" data-icon="akar-icons:linkedin-fill" data-inline="false">
+                     </span
+                  ></a>
+               </li>
+               <li id="social">
+                  <a href="https://github.com/himanshu-sahu"
+                     ><span
+                        class="iconify"
+                        data-icon="akar-icons:github-outline-fill"
+                        data-inline="false"
+                     ></span
+                  ></a>
+               </li>
+               <li id="social">
+                  <a href="https://www.instagram.com/_jarrvis/"
+                     ><span class="iconify" data-icon="akar-icons:instagram-fill" data-inline="false">
+                     </span
+                  ></a>
+               </li>
+               <li id="social">
+                  <a href="https://www.facebook.com/himsahu.99/"
+                     ><span
+                        class="iconify"
+                        data-icon="ant-design:facebook-filled"
+                        data-inline="false"
+                     ></span
+                  ></a>
+               </li>
+               <li id="social">
+                  <a href="https://twitter.com/himsahu_99"
+                     ><span
+                        class="iconify"
+                        data-icon="akar-icons:twitter-fill"
+                        data-inline="false"
+                     ></span
+                  ></a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </body>
+   <script src="js/index.js"></script>
+</html>
